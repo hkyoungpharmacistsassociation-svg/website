@@ -1,1 +1,31 @@
-{"name": "hkyoungpharmacistsassociation-website", "version": "1.0.0", "description": "HK Young Pharmacists Association Website with Strapi Backend", "main": "index.js", "scripts": {"develop": "strapi develop", "start": "strapi start", "build": "strapi build", "test": "echo \"Test placeholder\"", "dev": "node server.js"}, "keywords": ["strapi", "website", "pharmacy", "hong-kong"], "author": "HK Young Pharmacists Association", "license": "MIT", "dependencies": {"strapi": "^4.0.0", "axios": "^1.6.0", "cors": "^2.8.5", "dotenv": "^16.0.3", "express": "^4.18.2"}, "devDependencies": {"cross-env": "^7.0.3", "nodemon": "^2.0.22"}, "engines": {"node": ">=16.0.0", "npm": ">=8.0.0"}}
+{
+  "name": "my-app-name",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.34.0",
+    "@strapi/plugin-users-permissions": "5.34.0",
+    "@strapi/strapi": "5.34.0",
+    "better-sqlite3": "11.3.0",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  }
+}
