@@ -1,0 +1,1 @@
+{\n  "name": "website",\n  "version": "1.0.0",\n  "description": "Strapi backend configuration for the website",\n  "strapi": {\n    "host": "localhost",\n    "port": 1337,\n    "admin": {\n      "username": "strapi-admin",\n      "password": "yourpassword"\n    }\n  }\n}
